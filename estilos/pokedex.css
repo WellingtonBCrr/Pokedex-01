@@ -73,7 +73,7 @@ main > div > .caixapoke > div {
     padding-left: 21px;
 }
 
-#lateral {
+#lateralfogo {
     background-color: #e2504c;
     width: 17px;
     height: 200px;
@@ -83,4 +83,42 @@ main > div > .caixapoke > div {
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
     margin-top: 21px;
+}
+
+#lateralgrama {
+    background-color: #87be62;
+    width: 17px;
+    height: 200px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 98px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-top: 21px;
+}
+
+#lateralagua {
+    background-color: #59bfd8;
+    width: 17px;
+    height: 200px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 98px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-top: 21px;
+}
+
+footer {
+    margin-top: 21px;
+    color: white;
+    background-color: rgb(68, 68, 68);
+}
+
+footer > p {
+    text-align: center;
+}
+
+footer > p > a {
+    color: wheat;
 }
