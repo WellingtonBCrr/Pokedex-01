@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*
+    Typical Device Breakpoints - 03/2025
+Legenda: P = Pequeno; M = Medio; G = Grande.
+
+TELAS EXTRA-P:              Mínimo  ATÉ 480px
+CELULARES-P:                481px   ATÉ 600px
+CELULARES-G / TABLETS-P:    601px   ATÉ 768px
+TABLETS-M:                  769px   ATÉ 1024px
+NOTEBOOKS-M / PC-P:         1025px  ATÉ 1280px
+PC / TELAS HD:              1281px  ATÉ 1440px
+TELAS-G:                    1441px  ATÉ Máximo
+
+*/
+
+/*
+    Endereço das imagens 
+https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png 
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #EDECF2;
+}
+
+header {
+    background-color: #e2504c;
+    margin-bottom: 7px;
+}
+
+header > div > h1 {
+    color: white;
+    text-shadow: 3px 3px 0px black;
+    font-family: "Pokemon Hollow";
+
+}
+
+header > menu > ul> li > a {
+    color: wheat;
+}
+
+main > #juntar {
+    display: flex;
+}
+
+main > div > .caixapoke {
+    border-radius: 7px;
+    width: 449px;
+    height: 200px;
+    background-color: #c9c8cc;    
+    margin: auto;
+    margin-left: -3px;
+    margin-top: 21px;
+}
+
+main > div > .caixapoke > img {
+    width: 135px;
+    padding-left: 49px;
+    padding-bottom: 7px;
+}
+
+main > div > .caixapoke > h2 {
+    padding-left: 21px;
+}
+
+main > div > .caixapoke > div {
+    padding-left: 21px;
+}
+
+#lateral {
+    background-color: #e2504c;
+    width: 17px;
+    height: 200px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 98px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-top: 21px;
+}

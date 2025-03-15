@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/*
+    Typical Device Breakpoints - 03/2025
+Legenda: P = Pequeno; M = Medio; G = Grande.
+
+TELAS EXTRA-P:              Mínimo  ATÉ 480px
+CELULARES-P:                481px   ATÉ 600px
+CELULARES-G / TABLETS-P:    601px   ATÉ 768px
+TABLETS-M:                  769px   ATÉ 1024px
+NOTEBOOKS-M / PC-P:         1025px  ATÉ 1280px
+PC / TELAS HD:              1281px  ATÉ 1440px
+TELAS-G:                    1441px  ATÉ Máximo
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #EDECF2;
+}
+
+header {
+    background-color: #e2504c;
+    margin-bottom: 7px;
+}
+
+header > div > h1 {
+    color: white;
+    text-shadow: 3px 3px 0px black;
+    font-family: "Pokemon Hollow";
+
+}
+
+header > menu > ul> li > a {
+    color: wheat;
+}
+
+main {
+    background-color: #cbcacf; 
+    margin: auto;
+    width: 91vw;
+    height: 133vh;
+    border-radius: 14px;
+}
+
+main > h2 {
+    color: white;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.651);
+    text-align: center;
+    font-size: 3em;
+}
+
+main > p {
+    padding-left: 14px;
+    padding-right: 14px;
+    text-indent: 49px;
+    text-align: justify;
+    margin-top: 14px;
+}
+
+footer {
+    margin-top: 7px;
+    color: white;
+    background-color: rgb(68, 68, 68);
+}
+
+footer > p {
+    text-align: center;
+}
+
+footer > p > a {
+    color: wheat;
+}
