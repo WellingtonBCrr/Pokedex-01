@@ -46,7 +46,7 @@ header > menu > ul> li > a {
 }
 
 main > #juntar {
-    display: flex;
+    display: inline-flex;
 }
 
 main > div > .caixapoke {
