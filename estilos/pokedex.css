@@ -17,6 +17,52 @@ TELAS-G:                    1441px  ATÉ Máximo
 /*
     Endereço das imagens 
 https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png 
+
+    Link do favicon
+<link rel="shortcut icon" href="faviconV2.png" type="image/x-icon">
+
+    Link Icons Google
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+
+    Span do Modo claro e escuro
+<span class="material-symbols-outlined" class="">
+    light_mode
+</span>
+
+<span class="material-symbols-outlined">
+    dark_mode
+</span>
+
+*/
+
+
+/*
+    Paleta de Cores
+        Cor de Fundo:           #EDECF2
+        Cor de Fundo header:    #e2504c
+        Caixa Pokemon:          #c9c8cc
+        
+        Tipos de Pokemon:
+            Normal:     #DAC8B3
+            Fogo:       #FF6400
+            Água:       #00879E
+            Grama:      #488213
+            Voador:     #4e8fe4
+            Lutador:    #C80815
+            Veneno:     #9601e6
+            Elétrico:   #FFDD25
+            Terra:      #aa7444
+            Pedra:      #6B5E55
+            Psíquico:   #ee00b6
+            Gelo:       #D5E8D2
+            Inseto:     #354a21
+            Fantasma:   #b681eb
+            Ferro:      #224b81
+            Dragão:     #5c57c0
+            Sombrio:    #0f0f0f
+            Fada:       #fca7bd
+
 */
 
 * {
@@ -29,96 +75,34 @@ body {
     background-color: #EDECF2;
 }
 
-header {
+header > div.conteiner {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
     background-color: #e2504c;
-    margin-bottom: 7px;
+    width: 100vw;
+    height: 2.5em;
 }
 
-header > div > h1 {
-    color: white;
-    text-shadow: 3px 3px 0px black;
-    font-family: "Pokemon Hollow";
-
+div.itens {
+    
 }
 
-header > menu > ul> li > a {
-    color: wheat;
-}
+div.conteiner2 > .menu > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 
-main > #juntar {
-    display: inline-flex;
-}
-
-main > div > .caixapoke {
-    border-radius: 7px;
-    width: 235px;
-    height: 200px;
-    background-color: #c9c8cc;    
-    margin: auto;
-    margin-left: -3px;
-    margin-top: 21px;
-}
-
-main > div > .caixapoke > img {
-    width: 135px;
-    padding-left: 49px;
-    padding-bottom: 7px;
-}
-
-main > div > .caixapoke > h2 {
-    padding-left: 21px;
-}
-
-main > div > .caixapoke > div {
-    padding-left: 21px;
-}
-
-#lateralfogo {
     background-color: #e2504c;
-    width: 17px;
-    height: 200px;
-    margin: auto;
-    margin-right: 0px;
-    margin-left: 21px;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-    margin-top: 21px;
+    
 }
 
-#lateralgrama {
-    background-color: #87be62;
-    width: 17px;
-    height: 200px;
-    margin: auto;
-    margin-right: 0px;
-    margin-left: 21px;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-    margin-top: 21px;
+div.conteiner2 > .menu > ul > li {
+    text-decoration: ;
 }
 
-#lateralagua {
-    background-color: #59bfd8;
-    width: 17px;
-    height: 200px;
-    margin: auto;
-    margin-right: 0px;
-    margin-left: 21px;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-    margin-top: 21px;
-}
+div.menu {
 
-footer {
-    margin-top: 21px;
-    color: white;
-    background-color: rgb(68, 68, 68);
-}
-
-footer > p {
-    text-align: center;
-}
-
-footer > p > a {
-    color: wheat;
 }
