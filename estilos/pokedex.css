@@ -47,7 +47,7 @@ https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.p
             Normal:     #DAC8B3
             Fogo:       #FF6400
             Água:       #00879E
-            Grama:      #488213
+            Grama:      #01e48d
             Voador:     #4e8fe4
             Lutador:    #C80815
             Veneno:     #9601e6
@@ -71,16 +71,16 @@ https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.p
     font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+    background-color: #cdccd1;
+}
+
 header > div > div > h1 {
     font-size: 2.5em;
 }
 
 header > div > div > ul > li {
     font-size: 1.5em;
-}
-
-body {
-    background-color: #EDECF2;
 }
 
 header > div.conteiner {
@@ -90,12 +90,8 @@ header > div.conteiner {
     align-items: center;
 
     background-color: #e2504c;
-    width: 100vw;
+    width: 96.8vw;
     height: 2.5em;
-}
-
-div.itens {
-    
 }
 
 header > div > div > a {
@@ -113,6 +109,129 @@ div.conteiner2 > .menu > ul {
     
 }
 
-div.menu {
+main {
+    margin: auto;
+    margin-top: 14px;
+    height: 90vh;
+    width: 95vw;
 
+    display: flex;
+    flex-flow: row wrap;
+
+
+}
+
+main > div {
+    
+
+    background-color: #488213;
+    height: 149px;
+    width: 200px;
+    border-radius: 7px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.24);
+    margin: 14px;
+
+    display: flex;
+    flex-flow: column;
+
+
+}
+
+main > div > h3 {
+    color: white;
+    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.63);
+    text-align: center;
+}
+
+main > div > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.219);
+    text-align: end;
+    padding-right: 7px;
+}
+
+main > div > img {
+    width: 98px;
+    height: 98px;
+    padding-left: 42p;
+
+    align-self: center;
+    
+}
+
+/* Div's para os tipos de pokemon */
+
+div.tipo-grama {
+    background-color: #01e48d;
+}
+
+div.tipo-normal {
+    background-color: #DAC8B3;
+}
+
+div.tipo-fogo {
+    background-color: #FF6400;
+}
+
+div.tipo-agua {
+    background-color: #00879E;
+}
+
+div.tipo-voador {
+    background-color: #4e8fe4;
+}
+
+div.tipo-lutador {
+    background-color: #C80815;
+}
+
+div.tipo-veneno {
+    background-color: #9601e6;
+}
+
+div.tipo-elétrico {
+    background-color: #FFDD25;
+}
+
+div.tipo-terra {
+    background-color: #aa7444;
+}
+
+div.tipo-pedra {
+    background-color: #6B5E55;
+}
+
+div.tipo-psíquico {
+    background-color: #ee00b6;
+}
+
+div.tipo-gelo {
+    background-color: #D5E8D2;
+}
+
+div.tipo-inseto {
+    background-color: #354a21;
+}
+
+div.tipo-fantasma {
+    background-color: #b681eb;
+}
+
+div.tipo-ferro {
+    background-color: #224b81;
+}
+
+div.tipo-dragão {
+    background-color: #5c57c0;
+}
+
+div.tipo-sombrio {
+    background-color: #0f0f0f;
+}
+
+div.tipo-fada {
+    background-color: #fca7bd;
 }
