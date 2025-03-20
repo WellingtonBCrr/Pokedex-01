@@ -118,10 +118,10 @@ main {
     margin-top: 28px;
     height: 1449vh;
     width: 100vw;
+
     display: flex;
     flex-flow: row wrap;
-
-
+    justify-content: space-evenly;
 }
 
 main > div {
@@ -150,7 +150,7 @@ main > div > h3 {
 
 main > div > p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1em;
+    font-size: .8em;
     color: white;
     background-color: rgba(0, 0, 0, 0.219);
     text-align: end;
