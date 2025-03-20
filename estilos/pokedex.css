@@ -68,7 +68,7 @@ https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.p
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
 }
 
 body {
@@ -113,11 +113,11 @@ div.conteiner2 > .menu > ul {
 }
 
 main {
+    /* background-color: violet; */
     margin: auto;
-    margin-top: 14px;
-    height: 90vh;
-    width: 95vw;
-
+    margin-top: 28px;
+    height: 1449vh;
+    width: 100vw;
     display: flex;
     flex-flow: row wrap;
 
@@ -127,7 +127,7 @@ main {
 main > div {
     
 
-    background-color: #488213;
+    background-color: #cdccd1;
     height: 149px;
     width: 200px;
     border-radius: 7px;
@@ -143,7 +143,8 @@ main > div {
 
 main > div > h3 {
     color: white;
-    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.63);
+    font-size: 1.4em;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.63);
     text-align: center;
 }
 
@@ -164,6 +165,7 @@ main > div > img {
     align-self: center;
     
 }
+
 
 /* Div's para os tipos de pokemon */
 
@@ -192,10 +194,10 @@ div.tipo-lutador {
 }
 
 div.tipo-veneno {
-    background-color: #9601e6;
+    background-color: #a837e6;
 }
 
-div.tipo-elétrico {
+div.tipo-eletrico {
     background-color: #FFDD25;
 }
 
@@ -207,8 +209,8 @@ div.tipo-pedra {
     background-color: #6B5E55;
 }
 
-div.tipo-psíquico {
-    background-color: #ee00b6;
+div.tipo-psiquico {
+    background-color: #ff3bd1;
 }
 
 div.tipo-gelo {
@@ -216,7 +218,7 @@ div.tipo-gelo {
 }
 
 div.tipo-inseto {
-    background-color: #354a21;
+    background-color: #58773a;
 }
 
 div.tipo-fantasma {
@@ -227,7 +229,7 @@ div.tipo-ferro {
     background-color: #224b81;
 }
 
-div.tipo-dragão {
+div.tipo-dragao {
     background-color: #5c57c0;
 }
 
