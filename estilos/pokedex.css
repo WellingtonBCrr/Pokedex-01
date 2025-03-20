@@ -128,8 +128,8 @@ main > div {
     
 
     background-color: #cdccd1;
-    height: 149px;
-    width: 200px;
+    height: 121px;
+    width: 172px;
     border-radius: 7px;
     border: 1px solid black;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.24);
@@ -158,8 +158,8 @@ main > div > p {
 }
 
 main > div > img {
-    width: 98px;
-    height: 98px;
+    width: 77px;
+    height: 77px;
     padding-left: 42p;
 
     align-self: center;
