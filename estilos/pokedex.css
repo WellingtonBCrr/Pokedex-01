@@ -68,6 +68,7 @@ https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.p
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: monospace;
 }
 
