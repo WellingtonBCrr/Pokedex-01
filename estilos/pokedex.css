@@ -96,7 +96,7 @@ header > div > div > h1 {
     letter-spacing: 2px;
 
     color: white;
-    text-shadow: 03px 3px 1px rgba(0, 0, 0, 0.466);
+    text-shadow: 03px 3px 1px rgba(0, 0, 0, 0.37);
 }
 
 header > div > div > ul > li {
@@ -113,7 +113,8 @@ header > div.conteiner {
 }
 
 header > div > div > a {
-    color: black;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.37);
     text-decoration: none;
 }
 
@@ -127,6 +128,8 @@ div.conteiner2 > .menu > ul {
     justify-content: space-around;
 
     background-color: #e2504c;
+    color: white;
+    text-shadow: 03px 3px 1px rgba(0, 0, 0, 0.37) ;
     list-style-type: none;
     
 }
