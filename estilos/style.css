@@ -155,16 +155,11 @@ div.conteiner2 > .menu > ul {
 main {
     display: flex;
     justify-content: center;
-    background-image: url(../fa2cad75ab82e963f2b13b8f5632d2ef.jpg);
-    background-size: cover;
-    background-size: 509px;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 main > section {
     margin-top: 49px;
-    height: 100vh;
+    height: 149vh;
     width: 94vw;
     border-radius: 7px;
     background-color: rgba(0, 0, 0, 0.425);
