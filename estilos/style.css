@@ -169,10 +169,11 @@ main > section {
 }
 
 main > section > h2 {
+    background-color: rgba(0, 0, 0, 0.301);
     font-size: 2em;
     color: white;
     text-align: center;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 1px 1px 1px black;
     margin: 7px;
 }
 
@@ -182,7 +183,7 @@ main > section > p {
     text-indent: 21px;
     margin: 14px;
     color: white;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 1px 1px 1px black;
     font-family: 'Courier New', Courier, monospace;
 }
 
