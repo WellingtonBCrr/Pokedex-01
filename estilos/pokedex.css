@@ -99,8 +99,26 @@ header > div > div > h1 {
     text-shadow: 03px 3px 1px rgba(0, 0, 0, 0.37);
 }
 
+header > div > div > h1 > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Ketchum' , 'Courier New', Courier, monospace;
+}
+
 header > div > div > ul > li {
     font-size: 1.5em;
+    padding: 3px;
+}
+
+header > div > div > ul > li:hover {
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 7px;
+    transition: background-color .5s, border-radius .7s;
+}
+
+header > div > div > ul > li > a {
+    text-decoration: none;
+    color: white;
 }
 
 header > div.conteiner {
@@ -137,7 +155,7 @@ div.conteiner2 > .menu > ul {
 main {
     /* background-color: violet; */
     margin: auto;
-    margin-top: 28px;
+    margin-top: 49px;
     height: 100vh;
     width: 100vw;
 
