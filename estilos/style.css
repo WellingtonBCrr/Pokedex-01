@@ -158,6 +158,9 @@ main {
 }
 
 main > section {
+    background-image: url(../8.30.2022_B5.jpg);
+    background-position: center;
+    background-size:  cover;
     margin-top: 49px;
     height: 149vh;
     width: 94vw;
@@ -174,7 +177,9 @@ main > section > h2 {
 }
 
 main > section > p {
-    text-indent: 49px;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 7px;
+    text-indent: 21px;
     margin: 14px;
     color: white;
     text-shadow: 2px 2px 1px black;
