@@ -14,65 +14,173 @@ TELAS-G:                    1441px  ATÉ Máximo
 
 */
 
+/*
+    Endereço das imagens 
+https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png 
+
+    Link do favicon
+<link rel="shortcut icon" href="faviconV2.png" type="image/x-icon">
+
+    Link Icons Google
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+
+    Span do Modo claro e escuro
+<span class="material-symbols-outlined" class="">
+    light_mode
+</span>
+
+<span class="material-symbols-outlined">
+    dark_mode
+</span>
+
+*/
+
+
+/*
+    Paleta de Cores
+        Cor de Fundo:           #EDECF2
+        Cor de Fundo header:    #e2504c
+        Caixa Pokemon:          #c9c8cc
+        
+        Tipos de Pokemon:
+            Normal:     #DAC8B3
+            Fogo:       #FF6400
+            Água:       #00879E
+            Grama:      #01e48d
+            Voador:     #4e8fe4
+            Lutador:    #C80815
+            Veneno:     #9601e6
+            Elétrico:   #FFDD25
+            Terra:      #aa7444
+            Pedra:      #6B5E55
+            Psíquico:   #ee00b6
+            Gelo:       #D5E8D2
+            Inseto:     #354a21
+            Fantasma:   #b681eb
+            Ferro:      #224b81
+            Dragão:     #5c57c0
+            Sombrio:    #0f0f0f
+            Fada:       #fca7bd
+
+*/
+
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    font-family: monospace;
 }
 
 body {
-    background-color: #EDECF2;
+    background-color: white;
 }
 
 header {
-    background-color: #e2504c;
-    margin-bottom: 7px;
+    width: 100vw;
+    height: 35px;
 }
 
-header > div > h1 {
+@font-face {
+    font-family: 'Ketchum';
+    src: url('Ketchum.otf') format('opentype'), url('Ketchum') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+header > div > div > h1 {
+    margin-left: 14px;
+
+    font-size: 2.5em;
+    font-family: 'Ketchum' ,'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+
     color: white;
-    text-shadow: 3px 3px 0px black;
-    font-family: "Pokemon Hollow";
-
+    text-shadow: 03px 3px 1px rgba(0, 0, 0, 0.37);
 }
 
-header > menu > ul> li > a {
-    color: wheat;
+header > div > div > h1 > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Ketchum' , 'Courier New', Courier, monospace;
+}
+
+header > div > div > ul > li {
+    font-size: 1.5em;
+    padding: 3px;
+}
+
+header > div > div > ul > li:hover {
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 7px;
+    transition: background-color .5s, border-radius .7s;
+}
+
+header > div > div > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > div.conteiner {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #e2504c;
+}
+
+header > div > div > a {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.37);
+    text-decoration: none;
+}
+
+header > div > div.itens {
+    margin-right: 21px;
+}
+
+div.conteiner2 > .menu > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    background-color: #e2504c;
+    color: white;
+    text-shadow: 03px 3px 1px rgba(0, 0, 0, 0.37) ;
+    list-style-type: none;
+    
 }
 
 main {
-    background-color: #cbcacf; 
-    margin: auto;
-    width: 91vw;
-    height: 133vh;
-    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../fa2cad75ab82e963f2b13b8f5632d2ef.jpg);
+    background-size: cover;
+    background-size: 509px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-main > h2 {
-    color: white;
-    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.651);
+main > section {
+    margin-top: 49px;
+    height: 100vh;
+    width: 94vw;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+main > section > h2 {
+    font-size: 1.7em;
     text-align: center;
-    font-size: 3em;
+    margin: 14px;
 }
 
-main > p {
-    padding-left: 14px;
-    padding-right: 14px;
+main > section > p {
     text-indent: 49px;
-    text-align: justify;
-    margin-top: 14px;
-}
-
-footer {
-    margin-top: 7px;
+    margin: 14px;
     color: white;
-    background-color: rgb(68, 68, 68);
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-footer > p {
-    text-align: center;
-}
-
-footer > p > a {
-    color: wheat;
-}
