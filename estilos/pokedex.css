@@ -69,6 +69,7 @@ https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.p
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
     font-family: monospace;
 }
 
@@ -156,12 +157,13 @@ main {
     /* background-color: violet; */
     margin: auto;
     margin-top: 49px;
-    height: 100vh;
+    height: 1521vh;
     width: 100vw;
 
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    gap: 0px;
 }
 
 main > div {
@@ -279,3 +281,19 @@ div.tipo-sombrio {
 div.tipo-fada {
     background-color: #fca7bd;
 }
+
+
+footer {
+    color: white;
+    background-color: #e2504c;
+    font-size: 1.2em;
+    text-align: center;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.678);
+    margin: 3px;
+    width: 100vw;
+}
+
+footer > p > a {
+    color: wheat;
+}
+
