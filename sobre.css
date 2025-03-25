@@ -68,6 +68,7 @@ https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.p
 * {
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
     box-sizing: border-box;
     font-family: monospace;
 }
@@ -169,7 +170,8 @@ main > section {
 }
 
 main > section > h2 {
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 7px;
     font-size: 2.3em;
     color: white;
     text-align: center;
@@ -179,7 +181,7 @@ main > section > h2 {
 }
 
 main > section > p {
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.705);
     border-radius: 7px;
     box-shadow: 3px 3px black;
     text-indent: 21px;
@@ -205,11 +207,11 @@ main > section > p {
 footer {
     color: white;
     background-color: #e2504c;
-    /* box-shadow: 0px -7px rgba(0, 0, 0, 0.137); */
+    box-shadow: 0px -7px rgba(0, 0, 0, 0.137);
     font-size: 1.2em;
     text-align: center;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.678);
-    margin-top: 3px;
+    margin-top: 9px;
     padding: 3px;
     width: 100vw;
 }
