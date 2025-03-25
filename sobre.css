@@ -192,8 +192,8 @@ main > section > p {
 }
 
 .pespecial {
-    background-color: rgba(245, 222, 179, 0.747);
-    color: whitesmoke;
+    background-color: rgba(245, 222, 179, 0.863);
+    color: white;
     text-shadow: 2px 2px black;
     text-align: justify;
     text-decoration: underline;
