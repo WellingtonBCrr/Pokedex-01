@@ -74,7 +74,8 @@ https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.p
 }
 
 body {
-    background-color: white;
+    background-color: rgb(53, 60, 68);
+    height: 121vh;
 }
 
 header {
@@ -128,7 +129,7 @@ header > div.conteiner {
     justify-content: space-between;
     align-items: center;
 
-    background-color: #e2504c;
+    background-color: rgb(87, 100, 112);
 }
 
 header > div > div > a {
@@ -146,7 +147,7 @@ div.conteiner2 > .menu > ul {
     flex-flow: row nowrap;
     justify-content: space-around;
 
-    background-color: #e2504c;
+    background-color: rgb(87, 100, 112);
     color: white;
     text-shadow: 03px 3px 1px rgba(0, 0, 0, 0.37) ;
     list-style-type: none;
@@ -159,31 +160,32 @@ main {
 }
 
 main > section {
-    background-image: url(seamless-pattern-pokemon-go-pokeball-background-vector-23236924.jpg);
+    background-image: url(../nereviza-pattern-pokemon-fantasma.jpg);
     background-position: center;
     background-size:  contain;
     margin-top: 49px;
-    height: 360vh;
+    height: 198vh;
     width: 94vw;
     border-radius: 7px;
     background-color: rgba(0, 0, 0, 0.425);
 }
 
 main > section > h2 {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.301);
+    box-shadow: 3px 3px black;
     border-radius: 7px;
-    font-size: 2.3em;
+    font-size: 2em;
     color: white;
     text-align: center;
     text-shadow: 1px 1px 1px black;
     margin: 7px;
-    box-shadow: 3px 3px black;
 }
 
 main > section > p {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.767);
     border-radius: 7px;
-    box-shadow: 3px 3px black;
     text-indent: 21px;
     text-align: justify;
     margin: 14px;
@@ -193,20 +195,9 @@ main > section > p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.pespecial {
-    background-color: rgba(245, 222, 179, 0.952);
-    color: white;
-    text-shadow: 2px 2px black;
-    text-align: justify;
-    text-decoration: underline;
-    font-size: 1.3em;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.568);
-    font-family: sans-serif;
-}
-
 footer {
     color: white;
-    background-color: #e2504c;
+    background-color: rgb(87, 100, 112);
     box-shadow: 0px -7px rgba(0, 0, 0, 0.137);
     font-size: 1.2em;
     text-align: center;

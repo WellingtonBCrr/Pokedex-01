@@ -68,13 +68,13 @@ https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.p
 * {
     margin: 0px;
     padding: 0px;
-    text-decoration: none;
     box-sizing: border-box;
+    text-decoration: none;
     font-family: monospace;
 }
 
 body {
-    background-color: white;
+    background-color: rgb(53, 60, 68);
 }
 
 header {
@@ -106,6 +106,10 @@ header > div > div > h1 > a {
     font-family: 'Ketchum' , 'Courier New', Courier, monospace;
 }
 
+header > div > div > ul {
+    box-shadow: 0px 7px rgba(0, 0, 0, 0.137);
+}
+
 header > div > div > ul > li {
     font-size: 1.5em;
     padding: 3px;
@@ -128,7 +132,7 @@ header > div.conteiner {
     justify-content: space-between;
     align-items: center;
 
-    background-color: #e2504c;
+    background-color: rgb(87, 100, 112);
 }
 
 header > div > div > a {
@@ -146,7 +150,7 @@ div.conteiner2 > .menu > ul {
     flex-flow: row nowrap;
     justify-content: space-around;
 
-    background-color: #e2504c;
+    background-color: rgb(87, 100, 112);
     color: white;
     text-shadow: 03px 3px 1px rgba(0, 0, 0, 0.37) ;
     list-style-type: none;
@@ -154,64 +158,142 @@ div.conteiner2 > .menu > ul {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-}
-
-main > section {
-    background-image: url(seamless-pattern-pokemon-go-pokeball-background-vector-23236924.jpg);
-    background-position: center;
-    background-size:  contain;
+    /* background-color: violet; */
+    margin: auto;
     margin-top: 49px;
-    height: 360vh;
-    width: 94vw;
-    border-radius: 7px;
-    background-color: rgba(0, 0, 0, 0.425);
+    height: 1521vh;
+    width: 100vw;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 0px;
 }
 
-main > section > h2 {
-    background-color: rgba(0, 0, 0, 0.705);
-    border-radius: 7px;
-    font-size: 2.3em;
-    color: white;
-    text-align: center;
-    text-shadow: 1px 1px 1px black;
-    margin: 7px;
-    box-shadow: 3px 3px black;
-}
+main > div {
+    
 
-main > section > p {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: #cdccd1;
+    height: 98px;
+    width: 149px;
     border-radius: 7px;
-    box-shadow: 3px 3px black;
-    text-indent: 21px;
-    text-align: justify;
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.24);
     margin: 14px;
-    padding: 14px;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    font-family: 'Courier New', Courier, monospace;
+
+    display: flex;
+    flex-flow: column;
+
+
 }
 
-.pespecial {
-    background-color: rgba(245, 222, 179, 0.952);
+main > div > h3 {
     color: white;
-    text-shadow: 2px 2px black;
-    text-align: justify;
-    text-decoration: underline;
-    font-size: 1.3em;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.568);
-    font-family: sans-serif;
+    font-size: 1.4em;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.63);
+    text-align: center;
 }
+
+main > div > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .8em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.219);
+    text-align: end;
+    padding-right: 7px;
+}
+
+main > div > img {
+    width: 56px;
+    height: 56px;
+
+    align-self: center;
+    
+}
+
+
+/* Div's para os tipos de pokemon */
+
+div.tipo-grama {
+    background-color: #00b36e;
+}
+
+div.tipo-normal {
+    background-color: #bdad9b;
+}
+
+div.tipo-fogo {
+    background-color: #d45500;
+}
+
+div.tipo-agua {
+    background-color: #005b6b;
+}
+
+div.tipo-voador {
+    background-color: #3968a7;
+}
+
+div.tipo-lutador {
+    background-color: #C80815;
+}
+
+div.tipo-veneno {
+    background-color: #832bb3;
+}
+
+div.tipo-eletrico {
+    background-color: #e7c814;
+}
+
+div.tipo-terra {
+    background-color: #aa7444;
+}
+
+div.tipo-pedra {
+    background-color: #6B5E55;
+}
+
+div.tipo-psiquico {
+    background-color: #cf30aa;
+}
+
+div.tipo-gelo {
+    background-color: #acbba9;
+}
+
+div.tipo-inseto {
+    background-color: #58773a;
+}
+
+div.tipo-fantasma {
+    background-color: #8f61bd;
+}
+
+div.tipo-ferro {
+    background-color: #224b81;
+}
+
+div.tipo-dragao {
+    background-color: #5c57c0;
+}
+
+div.tipo-sombrio {
+    background-color: #0f0f0f;
+}
+
+div.tipo-fada {
+    background-color: #be7e8f;
+}
+
 
 footer {
     color: white;
-    background-color: #e2504c;
+    background-color: rgb(87, 100, 112);
     box-shadow: 0px -7px rgba(0, 0, 0, 0.137);
     font-size: 1.2em;
     text-align: center;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.678);
-    margin-top: 9px;
     padding: 3px;
     width: 100vw;
 }
@@ -219,3 +301,4 @@ footer {
 footer > p > a {
     color: wheat;
 }
+
