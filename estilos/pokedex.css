@@ -157,12 +157,12 @@ div.conteiner2 > .menu > ul {
     
 }
 
-main {
+main > .conteiner3 {
     /* background-color: violet; */
     margin: auto;
     margin-top: 49px;
-    height: 1521vh;
-    width: 100vw;
+    height: auto;
+    width: auto;
 
     display: flex;
     flex-flow: row wrap;
@@ -170,7 +170,7 @@ main {
     gap: 0px;
 }
 
-main > div {
+main > .conteiner3 > div {
     
 
     background-color: #cdccd1;
@@ -187,14 +187,14 @@ main > div {
 
 }
 
-main > div > h3 {
+main > .conteiner3 > div > h3 {
     color: white;
     font-size: 1.4em;
     text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.63);
     text-align: center;
 }
 
-main > div > p {
+main > .conteiner3 > div > p {
     font-family: 'Times New Roman', Times, serif;
     font-size: .8em;
     color: white;
@@ -203,7 +203,7 @@ main > div > p {
     padding-right: 7px;
 }
 
-main > div > img {
+main > .conteiner3 > div > img {
     width: 56px;
     height: 56px;
 
@@ -214,75 +214,75 @@ main > div > img {
 
 /* Div's para os tipos de pokemon */
 
-div.tipo-grama {
+.conteiner3 > div.tipo-grama {
     background-color: #01e48d;
 }
 
-div.tipo-normal {
+.conteiner3 > div.tipo-normal {
     background-color: #DAC8B3;
 }
 
-div.tipo-fogo {
+.conteiner3 > div.tipo-fogo {
     background-color: #FF6400;
 }
 
-div.tipo-agua {
+.conteiner3 > div.tipo-agua {
     background-color: #00879E;
 }
 
-div.tipo-voador {
+.conteiner3 > div.tipo-voador {
     background-color: #4e8fe4;
 }
 
-div.tipo-lutador {
+.conteiner3 > div.tipo-lutador {
     background-color: #C80815;
 }
 
-div.tipo-veneno {
+.conteiner3 > div.tipo-veneno {
     background-color: #a837e6;
 }
 
-div.tipo-eletrico {
+.conteiner3 > div.tipo-eletrico {
     background-color: #FFDD25;
 }
 
-div.tipo-terra {
+.conteiner3 > div.tipo-terra {
     background-color: #aa7444;
 }
 
-div.tipo-pedra {
+.conteiner3 > div.tipo-pedra {
     background-color: #6B5E55;
 }
 
-div.tipo-psiquico {
+.conteiner3 > div.tipo-psiquico {
     background-color: #ff3bd1;
 }
 
-div.tipo-gelo {
+.conteiner3 > div.tipo-gelo {
     background-color: #D5E8D2;
 }
 
-div.tipo-inseto {
+.conteiner3 > div.tipo-inseto {
     background-color: #58773a;
 }
 
-div.tipo-fantasma {
+.conteiner3 > div.tipo-fantasma {
     background-color: #b681eb;
 }
 
-div.tipo-ferro {
+.conteiner3 > div.tipo-ferro {
     background-color: #224b81;
 }
 
-div.tipo-dragao {
+.conteiner3 > div.tipo-dragao {
     background-color: #5c57c0;
 }
 
-div.tipo-sombrio {
+.conteiner3 > div.tipo-sombrio {
     background-color: #0f0f0f;
 }
 
-div.tipo-fada {
+.conteiner3 > div.tipo-fada {
     background-color: #fca7bd;
 }
 
