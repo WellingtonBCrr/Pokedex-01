@@ -159,11 +159,11 @@ main {
 }
 
 main > section {
-    background-image: url(07859fcb42922d6eaf57ec08de98da88.jpg);
+    background-image: url(../imagens/07859fcb42922d6eaf57ec08de98da88.jpg);
     background-position: center center;
     background-attachment: fixed;
     margin-top: 49px;
-    height: 365vh;
+    height: auto;
     width: 94vw;
     border-radius: 7px;
     background-color: rgba(0, 0, 0, 0.425);
@@ -202,6 +202,10 @@ main > section > p {
     font-size: 1.3em;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.568);
     font-family: sans-serif;
+}
+
+.pultimo {
+    margin-bottom: 70px;
 }
 
 footer {

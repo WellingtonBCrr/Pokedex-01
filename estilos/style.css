@@ -160,13 +160,13 @@ main {
 }
 
 main > section {
-    background-image: url(../8.30.2022_B5.jpg);
+    background-image: url(../imagens/8.30.2022_B5.jpg);
     background-position: center;
     background-size:  cover;
     margin-top: 49px;
-    height: 203vh;
+    height: auto;
     width: 94vw;
-    border-radius: 7px;
+    border-radius: 14px;
     background-color: rgba(0, 0, 0, 0.425);
 }
 
@@ -209,4 +209,8 @@ footer {
 
 footer > p > a {
     color: wheat;
+}
+
+.pultimo {
+    margin-bottom: 70px;
 }

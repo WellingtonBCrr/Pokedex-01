@@ -159,14 +159,15 @@ main {
 }
 
 main > section {
-    background-image: url(seamless-pattern-pokemon-go-pokeball-background-vector-23236924.jpg);
+    background-image: url(../imagens/seamless-pattern-pokemon-go-pokeball-background-vector-23236924.jpg);
     background-position: center;
     background-size:  contain;
     margin-top: 49px;
-    height: 365vh;
+    height: auto;
     width: 94vw;
-    border-radius: 7px;
+    border-radius: 14px;
     background-color: rgba(0, 0, 0, 0.425);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
 }
 
 main > section > h2 {
@@ -202,6 +203,10 @@ main > section > p {
     font-size: 1.3em;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.568);
     font-family: sans-serif;
+}
+
+.pultimo {
+    margin-bottom: 70px;
 }
 
 footer {
