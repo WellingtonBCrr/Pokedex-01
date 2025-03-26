@@ -78,7 +78,7 @@ body {
 }
 
 header {
-    width: 100vw;
+    width: auto;
     height: 35px;
 }
 
@@ -165,6 +165,7 @@ main > section {
     margin-top: 49px;
     height: auto;
     width: 94vw;
+    border: 3px solid black;
     border-radius: 14px;
     background-color: rgba(0, 0, 0, 0.425);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
@@ -218,7 +219,7 @@ footer {
     text-shadow: 1px 1px rgba(0, 0, 0, 0.678);
     margin-top: 9px;
     padding: 3px;
-    width: 100vw;
+    width: auto;
 }
 
 footer > p > a {

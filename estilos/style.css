@@ -75,7 +75,7 @@ https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.p
 
 body {
     background-color: white;
-    height: 121vh;
+    height: auto;
 }
 
 header {
@@ -167,11 +167,13 @@ main > section {
     height: auto;
     width: 94vw;
     border-radius: 14px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.432);
     background-color: rgba(0, 0, 0, 0.425);
 }
 
 main > section > h2 {
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.808);
     box-shadow: 3px 3px black;
     border-radius: 7px;
     font-size: 2em;
@@ -182,7 +184,7 @@ main > section > h2 {
 }
 
 main > section > p {
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.808);
     color: white;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.767);
     border-radius: 7px;
